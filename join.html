@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제주관광공사</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/join.css">
+    <link rel="stylesheet" href="css/respond.css">
+</head>
+
+<body>
+    <div id="header">
+        <div id="header_inner">
+            <h1 id="logo"><a href="index.html"><img src="img/logo.png" alt="로고"></a></h1>
+            <div id="topmenu">
+                <ul>
+                    <li><a href="#"><img src="img/facebook.png" alt="페이스북" style="width:18px;"></a></li>
+                    <li><a href="#"><img src="img/instagram.png" alt="인스타" style="width:18px;"></a></li>
+                </ul>
+                <p>
+                    <a href="login.html">로그인</a>
+                    <a href="join.html">회원가입</a>
+                </p>
+            </div>
+            <div id="gnbbox">
+                <ul id="gnb">
+                    <li class="maingnb">
+                        <a href="info.html">정보공개</a>
+                        <div class="gnbbox">
+                            <div>
+                                <h2>정보공개</h2>
+                                <div class="gnbvisit"><a href="#">&nbsp;</a></div>
+                                <ul>
+                                    <li><a href="info.html">사전정보공표</a></li>
+                                    <li><a href="info2.html">공공데이터 제공</a></li>
+                                    <li><a href="info3.html">경영공시</a></li>
+                                    <li><a href="info4.html">정보공개안내</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="maingnb">
+                        <a href="alarm.html">알림마당</a>
+                        <div class="gnbbox">
+                            <div>
+                                <h2>알림마당</h2>
+                                <div class="gnbvisit"><a href="#">&nbsp;</a></div>
+                                <ul>
+                                    <li><a href="alarm.html">공지사항</a></li>
+                                    <li><a href="#">계약정보</a></li>
+                                    <li><a href="#">채용공고</a></li>
+                                    <li><a href="#">관광자료실</a></li>
+                                    <li><a href="#">J-Academy교육안내</a></li>
+                                    <li><a href="#">뉴스레터</a></li>
+                                    <li><a href="#">보도자료</a></li>
+                                    <li><a href="#">언론보도해명</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="maingnb">
+                        <a href="custom.html">고객참여</a>
+                        <div class="gnbbox">
+                            <div>
+                                <h2>고객참여</h2>
+                                <div class="gnbvisit"><a href="#">&nbsp;</a></div>
+                                <ul>
+                                    <li><a href="custom.html">질문과 답변</a></li>
+                                    <li><a href="#">제주관광공사에 바란다</a></li>
+                                    <li><a href="#">관광신문고</a></li>
+                                    <li><a href="#">제주관광지도 신청</a></li>
+                                    <li><a href="#">면세점 입점안내</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="maingnb">
+                        <a href="intro.html">공사소개</a>
+                        <div class="gnbbox">
+                            <div>
+                                <h2>공사소개</h2>
+                                <div class="gnbvisit"><a href="#">&nbsp;</a></div>
+                                <ul>
+                                    <li><a href="intro.html">CEO</a></li>
+                                    <li><a href="#">제주관광공사</a></li>
+                                    <li><a href="#">CS/윤리/인권경영</a></li>
+                                    <li><a href="#">사업영역</a></li>
+                                    <li><a href="#">제주웰컴센터</a></li>
+                                    <li><a href="#">J-TOgether</a></li>
+                                    <li><a href="#">찾아오시는길</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="contents">
+        <div id="join_inner">
+            <div id="joinimg">
+            </div>
+            <div id="joinpage">
+                <form action="login.php" name="fm" id="loginform">
+                    <fieldset>
+                        <legend>login</legend>
+                        <table style="width:500px;height:120px">
+                            <caption>로그인양식</caption>
+                            <colgroup>
+                                <col style="width:70%">
+                                <col style="width:30%">
+                            </colgroup>
+                            <tr>
+                                <td><label for="id">I&nbsp;D</label>
+                                    <input type="text" id="id" name="id" placeholder="ID입력" /></td>
+                                <td rowspan="2">
+                                    <input class="btn_login" type="button" value="login" onclick=""
+                                        style="cursor:pointer;" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="pw">PW</label>
+                                    <input type="password" id="pw" name="pw" placeholder="암호입력" /></td>
+                                <!-- <td></td> -->
+                            </tr>
+                        </table>
+                    </fieldset>
+                </form>
+                <div class="Search">
+                    <ul id="searchID">
+                        <li><a href="#">아이디찾기</a></li>
+                        <li><a href="#">비밀번호찾기</a></li>
+                        <li><a href="join.html">일반회원가입</a></li>
+                    </ul>
+                </div>
+                <div id="loginsub">
+                    <a href="https://www.naver.com/">NAVER로그인</a>
+                    <a href="https://www.kakaocorp.com/service/KakaoTalk?lang=ko">카카오로그인</a>
+                </div>
+            </div>
+            <!--loginpage-->
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footer_inner">
+            <ul class="foot_menu">
+                <li><a href="#" style="font-size:13px; color:#ffc000">개인정보처리방침</a></li>
+                <li><a href="#" style="color:#ccc">영상정보 처리기기 운영방침</a></li>
+                <li><a href="#" style="color:#ccc">이메일무단수집거부</a></li>
+                <li><a href="#" style="color:#ccc">사이트맵</a></li>
+                <li><a href="#" style="color:#ccc">인트라넷</a></li>
+            </ul>
+            <address>제주관광공사 / 사장 : 고은숙 / 사업자등록번호 : 616-82-21432 / 개인정보관리책임자 : 문경호<br>(63122) 제주특별자치도 제주시 선덕로 23(연동)
+                제주웰컴센터 / 제주관광정보센터 TEL : (064)740-6000 / FAX : (064)740-6090~1</address>
+            <p class="cr">COPYRIGHT ⓒ JEJU TOURISM ORGANIZATION. ALL RIGHTS RESERVED. </p>
+            <div class="related_org">
+                <form>
+                    <fieldset>
+                        <span>
+                            <label class="dpn" for="goUrlSel_2">유관기관바로가기</label>
+                            <select title="유관기관바로가기" name="gourl" id="goUrlSel_2">
+                                <option value="">유관기관바로가기</option>
+                                <option title="새창으로 이동">제주평생교육장학진흥원 </option>
+                                <option title="새창으로 이동">제주연구원</option>
+                                <option title="새창으로 이동">제주특별자치도개발공사</option>
+                                <option title="새창으로 이동">감귤출하연합회</option>
+                                <option title="새창으로 이동">제주지방병무청</option>
+                                <option title="새창으로 이동">제주해양경찰서</option>
+                                <option title="새창으로 이동">제주통계사무소</option>
+                                <option title="새창으로 이동">제주지방경찰청</option>
+                                <option title="새창으로 이동">제주특별자치도관광협회</option>
+                                <option title="새창으로 이동">제주특별자치도제주의료원</option>
+                                <option title="새창으로 이동">제주특별자치도서귀포의료원</option>
+                                <option title="새창으로 이동">(사)제주컨벤션뷰로</option>
+                                <option title="새창으로 이동">(주)제주국제컨벤션센터</option>
+                                <option title="새창으로 이동">제주문화예술재단</option>
+                                <option title="새창으로 이동">제주특별자치도체육회</option>
+                                <option title="새창으로 이동">제주테크노파크</option>
+                                <option title="새창으로 이동">(사)제주영상위원회</option>
+                                <option title="새창으로 이동">제주특별자치도 경제통상진흥원</option>
+                                <option title="새창으로 이동">제주신용보증재단</option>
+                                <option title="새창으로 이동">제주4.3평화재단</option>
+                                <option title="새창으로 이동">제주국제자유도시개발센터</option>
+                                <option title="새창으로 이동">탐라영재관</option>
+                                <option title="새창으로 이동">제주특별자치도</option>
+                                <option title="새창으로 이동">한국방문위원회</option>
+                            </select>
+                        </span>
+                        <span>
+                            <label for="hmove_btn2" class="dpn" style="display: none;">이동</label>
+                            <input type="image" id="hmove_btn2" src="img/related_org_go.gif" alt="이동"
+                                title="선택한 유관기관 새창으로 이동">
+                        </span>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <!--footer_inner-->
+    </div>
+    <!--footer-->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <!--원본라이브러리-->
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/common.js"></script>
+    <!--common-->
+</body>
+
+
+</html>

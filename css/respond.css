@@ -1,0 +1,20 @@
+@charset "utf-8";
+/*desktop*/
+@media screen and (min-width:1201px){
+    html,body {width:100%;margin:0 auto}
+  }
+/* tablet */
+@media screen and (min-width:400px) and (max-width:1200px){
+    html,body {width:100%;margin:0 auto}
+    /* index */
+    #header,#visual,#cont1,#cont2,#cont3,#footer {width:1200px;}
+    #gnb>li>.gnbbox {width:1200px;left:-640px}
+    /* login */
+    #login_inner {margin-left:0}
+    /* join */
+    #join_inner {margin-left:0}
+    /* info */
+    #sub_visual {width:1200px;}
+    .pagename {width:1200px;}
+    
+}

@@ -1,0 +1,13 @@
+@charset "utf-8";
+/*desktop*/
+@media screen and (min-width:1201px){
+    .btn {display:none}
+    html,body {width:100%;margin:0 auto}
+    #M_gnbbox {display:none;text-indent:-9999px} 
+  }
+  /* tablet */
+  @media screen and (min-width:400px) and (max-width:1200px){
+    .btn {display:none}
+    html,body {width:100%;margin:0 auto}
+    #header,#visual,#cont1,#cont2,#cont3,#footer {width:1200px}
+  }

@@ -1,0 +1,18 @@
+@import url('common.css');
+
+#loginform {height:160px;}
+#login_inner {width:1200px;height:600px;margin-left: calc(50% - 600px);margin-top:50px;margin-bottom:50px;overflow:hidden}
+#loginpage {width:600px;float: left;margin-top:160px;margin-bottom:100px;}
+table {margin-bottom:40px}
+fieldset {border:0}
+legend,caption {text-indent: -9999px}
+#id,#pw {width: 250px;height: 30px;border-radius:10px;text-indent:10px}
+.btn_login {width: 80px;height: 80px;border: 0;border-radius:10px;background-color: skyblue;font-size:16px;line-height:80px;margin:0 0 0 -50px;}
+#loginform>label {font-size:16px;margin:0 200px 0 -15px;}
+
+#searchID {display: block;height:50px;width:225px;margin:0 auto;text-align:center;}
+#searchID li {float: left;line-height:50px;}
+#searchID li::after {content:'|';display: inline;margin-right:5px;margin-left:5px}
+#searchID li:last-child:after {content:'';display: inline;margin-right:5px}
+
+#loginimg {float: left;width:600px;height:600px;background: url(../img/login.jpg) no-repeat;}

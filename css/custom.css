@@ -1,0 +1,46 @@
+@import url('common.css');
+
+#sub_visual {position: relative;width:100%;height:260px;background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../img/sub_visual12.jpg) no-repeat;
+;background-position:center;overflow:hidden}
+.visual_name {margin-top:150px;font-size:24px;color:white}
+#mainstory {position: relative;width:1200px;height:auto;margin:20px auto;padding:0}
+
+/* pagegnb */
+.pagegnb {position: absolute;bottom:0;left:calc(50% - 375px)}
+.pagegnb_main {float:left}
+.pagegnb_main a {display:block;width:150px;background-color: rgba(0, 80, 160, 0.85);color:white;height:60px;text-align:center;line-height:60px;font-size:16px;border-right:1px solid white;box-sizing: border-box}
+.pagegnb_main:nth-child(5) a {border-right:0}
+.pagegnb_main>a:hover {background-color: #fff;color:rgb(0, 80, 160);}
+.page_slt a {background-color:white;color:rgb(0, 80, 160);}
+
+/* pagename */
+.pagename {height:80px}
+.pagename h1 {font-size:24px;line-height:80px;}
+/* form */
+.srhname {position: relative;margin-bottom:10px;margin-right:100px}
+.hid {display:none}
+.srhtab {width:200px;height:20px;margin-right:10px}
+.srhdone {width:60px;height:30px;border:0;background-Color:rgb(0, 80, 160);border-radius:10px 0 10px 0;font:12px 굴림;font-weight:bold;color:white}
+.findname_style {position: absolute;right:380px;top:4px}
+/* 게시판 */
+.bbs{margin-left:100px}
+.bbs .cel01{width:100px}
+.bbs .cel02{width:400px}
+.bbs .cel03{width:100px}
+.bbs .cel04{width:200px}
+.bbs .cel05{width:200px}
+.bbs thead {width: 20px;font-size:14px;line-height:20px;border-bottom:3px solid rgb(0, 80, 160)}
+.bbs tbody {font-size:12px}
+.bbs tbody tr {border-bottom:1px solid #eee;}
+.bbs tbody td {padding:8px 0}
+
+.paging {height:30px;padding:30px 0 50px 0}
+.paging a {display:inline-block;width:30px;height:30px;line-height:30px;border: 1px solid #eee;}
+.paging .active {background-color: rgb(0, 80, 160);color:white}
+.paging a:hover {background-color: rgb(0, 80, 160);color:white}
+
+/* aside_ad */
+#aside_ad {height:73px}
+.aside_ad_menu {display:block;height:73px}
+.aside_ad_menu li {float: left;display:block;margin-right:10px}
+.aside_ad_menu li:last-child {margin-right:0}

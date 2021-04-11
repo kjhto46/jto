@@ -1,0 +1,37 @@
+@import url('common.css');
+
+#sub_visual {position: relative;width:100%;height:260px;background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../img/sub_visual10.jpg) no-repeat;
+;background-position:center;overflow:hidden}
+.visual_name {margin-top:150px;font-size:24px;color:white}
+#mainstory {position: relative;width:1200px;height:auto;margin:20px auto;padding:0}
+
+/* pagegnb */
+.pagegnb {position: absolute;bottom:0;left:calc(50% - 300px)}
+.pagegnb_main {float:left}
+.pagegnb_main a {display:block;width:150px;background-color: rgba(0, 80, 160, 0.85);color:white;height:60px;text-align:center;line-height:60px;font-size:16px;border-right:1px solid white;box-sizing: border-box}
+.pagegnb_main:nth-child(4) a {border-right:0}
+.pagegnb_main>a:hover {background-color: #fff;color:rgb(0, 80, 160);}
+.page_slt a {background-color:white;color:rgb(0, 80, 160);}
+
+/* pagename */
+.pagename {width:1200px;height:auto;margin:0 auto;}
+.pagename h1 {font-size:24px;line-height:80px;}
+.pagename .pagesubgnb li {display:inline-block;width:100px;margin:0 5px;text-align:center;font-size:14px;border-bottom: 2px solid #ccc}
+.pagename .pagesubgnb .li_slt {border-bottom: 2px solid rgba(0, 80, 160, 0.85)}
+
+/* aside_ad */
+#aside_ad {height:73px}
+.aside_ad_menu {display:block;height:73px}
+.aside_ad_menu li {float: left;display:block;margin-right:10px}
+.aside_ad_menu li:last-child {margin-right:0}
+
+/* info2main */
+#info2main {width:1000px;height:auto;text-align:left;margin:50px auto;;margin-bottom:100px}
+#info2main ul {margin:0 0 20px 50px}
+#info2main .info2tit {font-weight:bold;font-size:16px}
+#info2main .info2sub {font-size:14px;margin:20px 0 0 50px}
+#info2main .info2sub>p>a {display:inline-block;background-color:rgb(0, 80, 160);color:white;width:75px;height:30px;text-align:center;line-height:30px;border-radius:10px 0 10px 0;margin-left:10px}
+#info2main .info2sub>p>span {float: right;margin-right:20px;font-size:12px}
+.infotable {margin:10px 0;border:1px solid #ccc;}
+.infotable thead th {background: #f7f7f7;border: 1px solid #d7d7d7;color: #5d5d5d;font-weight: bold;text-align: center;line-height: 140%;padding: 6px 10px}
+.infotable tbody td {background: #FFFFFF;border: 1px solid #d7d7d7;color: #5d5d5d;text-align:center;line-height: 140%;padding: 6px 10px}
